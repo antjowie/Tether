@@ -5,24 +5,25 @@
 	"name": "Tether",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"antjowie",
+		"Mideshio"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/antjowie/Tether"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/tether/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "usagi.tether.ExampleMod"
+			"usagi.tether.TetherMod"
 		],
 		"client": [
-          "usagi.tether.ExampleModClient"
+			"usagi.tether.TetherClient"
 		],
 		"fabric-datagen": [
-          "usagi.tether.ExampleModDataGenerator"
+			"usagi.tether.TetherDataGenerator"
 		]
 	},
 	"mixins": [
@@ -33,10 +34,10 @@
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.14.21",
-		"minecraft": "~1.19.4",
-		"java": ">=17",
-		"fabric-api": "*"
+		"fabricloader": ">=${loader_version}",
+		"fabric-api": ">=${fabric_version}",
+		"minecraft": "${minecraft_version}",
+		"java": ">=17"
 	},
 	"suggests": {
 		"another-mod": "*"
