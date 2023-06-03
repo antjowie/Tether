@@ -1,4 +1,4 @@
-package usage.tether.mixin.client;
+package usagi.tether.mixin.client;
 
 import net.minecraft.client.MinecraftClient;
 import org.spongepowered.asm.mixin.Mixin;

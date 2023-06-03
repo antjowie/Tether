@@ -1,4 +1,4 @@
-package usage.tether;
+package usagi.tether;
 
 import net.fabricmc.api.ModInitializer;
 

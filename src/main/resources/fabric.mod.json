@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"usage.tether.ExampleMod"
+          "usagi.tether.ExampleMod"
 		],
 		"client": [
-			"usage.tether.ExampleModClient"
+          "usagi.tether.ExampleModClient"
 		],
 		"fabric-datagen": [
-			"usage.tether.ExampleModDataGenerator"
+          "usagi.tether.ExampleModDataGenerator"
 		]
 	},
 	"mixins": [
