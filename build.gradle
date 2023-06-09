@@ -71,10 +71,7 @@ processResources {
 	properties.put("version", version)
 	properties.put("loader_version", loader_version)
 	properties.put("fabric_version", fabric_version)
-
-	// Version is mismatched for release candidate
-	properties.put("minecraft_version", "1.20-rc.1")
-//	properties.put("minecraft_version", minecraft_version)
+	properties.put("minecraft_version", minecraft_version)
 	properties.forEach((k, v) -> inputs.property(k, v))
 
 	filesMatching("fabric.mod.json") {
